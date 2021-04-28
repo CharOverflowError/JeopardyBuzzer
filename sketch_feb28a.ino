@@ -67,9 +67,9 @@ void loop() {
     
   // Set reset buzzer
   if (players_answered == 0){
-    fill_solid(leds[0], NUM_LEDS, CRGB::Red);
+    fill_solid(leds[0], NUM_LEDS, CRGB(0x440033));
   } else {
-    fill_solid(leds[0], NUM_LEDS, CRGB::Green);
+    fill_solid(leds[0], NUM_LEDS, CRGB::Red);
   }
 
   FastLED.show();
